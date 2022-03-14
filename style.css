@@ -1,0 +1,61 @@
+.display {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    border: 2px solid #04f7ff;
+}
+
+.bar {
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    background: #00fffb;
+}
+
+.block {
+    position: absolute;
+    box-sizing: border-box;
+    width: 40px;
+    height: 20px;
+    border-radius: 4px;
+    border: 2px solid #4b3b3b;
+    background: #cc0000;
+}
+
+.ball {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    background: skyblue;
+    border: 2px solid #00fffb;
+}
+
+.explain-label {
+    position: absolute;
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+    color: #353535;
+    pointer-events: none;
+}
+
+.left-button,
+.right-button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff0000;
+    background: #ff000080;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+}
